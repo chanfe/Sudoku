@@ -1,68 +1,167 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better please fork the repo and create a pull request or simple open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for build-url, contributors-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Build Status][build-shield]][build-url]
+[![Contributors][contributors-shield]][contributors-url]
+[![MIT License][license-shield]][license-url]
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/chanfe/Sudoku/">
+    <img src="#" alt="Logo" width="80" height="80">
+  </a>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <h3 align="center"># Sudoku solver(tentative name)</h3>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  <p align="center">
+    Equipment Tracker and Maintenance  Log
+    <br />
+    <a href="https://github.com/chanfe/Sudoku"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/chanfe/Sudoku">View Demo</a> (Needs link)
+    ·
+    <a href="https://github.com/chanfe/Sudoku/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/chanfe/Sudoku/issues">Request Feature</a>
+  </p>
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Table of Contents](#Table-of-Contents)
+- [About The Project](#About-The-Project)
+  - [Built With](#Built-With)
+- [Mock up of the application (to be)](#Mock-up-of-the-application-to-be)
+  - [Prerequisites](#Prerequisites)
+  - [Installation](#Installation)
+- [Usage](#Usage)
+- [Roadmap](#Roadmap)
+- [Contributing](#Contributing)
+- [License](#License)
+- [Contact](#Contact)
+- [Acknowledgements](#Acknowledgements)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+the input of the board with numbers and it will solve it using backtracking and output a sovled state.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Outline of Features:
+* solve a sudoku problem.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+### Built With
+* [ReactJS](https://reactjs.org)
+* [Python](https://www.python.org/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+<!-- MockUp of the Application (to be removed) -->
+## Mock up of the application (to be)
+<!--[![Product Name Screen Shot][product-screenshot]](https://github.com/chingu-voyages/v10-bears-team-03) -->
+### Prerequisites
+1. 
+```
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+### Installation
+1. Clone the repo
+```sh
+git clone https:://github.com/your_username_/Project-Name.git
+```
+2. Install NPM packages
+```sh
+npm install
+```
+3. Start local website
+```sh
+npm start
+```
 
-### Deployment
+<!-- USAGE EXAMPLES -->
+## Usage
+Once at the page you can react to the artwork.  Once reacted you can view other reaction to the same artwork or click random to react to a differant art.
+<!--_For more examples, you can goto our sample website [Here].(https://tracker-21.herokuapp.com/)_ -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `yarn build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+[Felix Chan](https://github.com/chanfe)
+
+Project Link: [https://github.com/chanfe/Sudoku](https://github.com/chanfe/Sudoku)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
+[build-url]: #
+[contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
+[contributors-url]: https://github.com/chingu-voyages/v10-bears-team-03/graphs/contributors
+[license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
+[license-url]: https://choosealicense.com/licenses/mit
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[product-screenshot]: https://i.imgur.com/Jfnx1uj.png
